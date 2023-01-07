@@ -11,14 +11,16 @@ public class NumberSchema extends BaseSchema{
         stateList.add(new DefaultState());
     }
 
-    public NumberSchema positive() {
+    public BaseSchema positive() {
         stateList.add(new PositiveState());
         return this;
     }
-    public void required() {
+    public BaseSchema required() {
         stateList.add(new RequiredState());
+        return this;
     }
-    public void range(int begin, int end) {
+    public BaseSchema range(int begin, int end) {
         stateList.add(new RangeState(begin, end));
+        return this;
     }
 }
