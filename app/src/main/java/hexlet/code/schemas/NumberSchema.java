@@ -1,9 +1,9 @@
-package hexlet.code.Schemas;
+package hexlet.code.schemas;
 
-import hexlet.code.States.DefaultState;
-import hexlet.code.States.NumberSchema.PositiveState;
-import hexlet.code.States.NumberSchema.RangeState;
-import hexlet.code.States.NumberSchema.RequiredState;
+import hexlet.code.states.DefaultState;
+import hexlet.code.states.numberSchema.PositiveState;
+import hexlet.code.states.numberSchema.RangeState;
+import hexlet.code.states.numberSchema.RequiredState;
 
 public class NumberSchema extends BaseSchema{
 

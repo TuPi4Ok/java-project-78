@@ -1,9 +1,9 @@
-package hexlet.code.Schemas;
+package hexlet.code.schemas;
 
-import hexlet.code.States.DefaultState;
-import hexlet.code.States.MapSchema.RequiredState;
-import hexlet.code.States.MapSchema.ShapeState;
-import hexlet.code.States.MapSchema.SizeofState;
+import hexlet.code.states.DefaultState;
+import hexlet.code.states.mapSchema.RequiredState;
+import hexlet.code.states.mapSchema.ShapeState;
+import hexlet.code.states.mapSchema.SizeofState;
 
 import java.util.Map;
 

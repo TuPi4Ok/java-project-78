@@ -1,7 +1,7 @@
-package hexlet.code.States.MapSchema;
+package hexlet.code.states.mapSchema;
 
-import hexlet.code.Schemas.BaseSchema;
-import hexlet.code.States.State;
+import hexlet.code.schemas.BaseSchema;
+import hexlet.code.states.State;
 
 import java.util.Map;
 

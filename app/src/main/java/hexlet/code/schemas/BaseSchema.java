@@ -1,6 +1,6 @@
-package hexlet.code.Schemas;
+package hexlet.code.schemas;
 
-import hexlet.code.States.State;
+import hexlet.code.states.State;
 
 import java.util.ArrayList;
 import java.util.List;

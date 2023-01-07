@@ -1,9 +1,9 @@
-package hexlet.code.Schemas;
+package hexlet.code.schemas;
 
-import hexlet.code.States.DefaultState;
-import hexlet.code.States.StringSchema.ContainsState;
-import hexlet.code.States.StringSchema.MinLength;
-import hexlet.code.States.StringSchema.RequiredState;
+import hexlet.code.states.DefaultState;
+import hexlet.code.states.stringSchema.ContainsState;
+import hexlet.code.states.stringSchema.MinLength;
+import hexlet.code.states.stringSchema.RequiredState;
 
 public class StringSchema extends BaseSchema {
     public StringSchema() {

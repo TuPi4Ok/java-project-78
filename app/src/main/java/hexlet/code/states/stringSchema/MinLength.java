@@ -1,6 +1,6 @@
-package hexlet.code.States.StringSchema;
+package hexlet.code.states.stringSchema;
 
-import hexlet.code.States.State;
+import hexlet.code.states.State;
 
 public class MinLength implements State {
     int length;

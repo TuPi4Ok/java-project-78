@@ -1,6 +1,4 @@
-package hexlet.code.States;
-
-import hexlet.code.States.State;
+package hexlet.code.states;
 
 public class DefaultState implements State {
     @Override

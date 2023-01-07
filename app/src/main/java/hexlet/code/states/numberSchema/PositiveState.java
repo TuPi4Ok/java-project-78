@@ -1,6 +1,6 @@
-package hexlet.code.States.NumberSchema;
+package hexlet.code.states.numberSchema;
 
-import hexlet.code.States.State;
+import hexlet.code.states.State;
 
 public class PositiveState implements State {
     @Override

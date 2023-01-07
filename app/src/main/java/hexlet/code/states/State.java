@@ -1,4 +1,4 @@
-package hexlet.code.States;
+package hexlet.code.states;
 
 public interface State {
     boolean isValid(Object obj);
