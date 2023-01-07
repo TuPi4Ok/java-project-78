@@ -3,8 +3,8 @@ package hexlet.code.states.numberSchema;
 import hexlet.code.states.State;
 
 public class RangeState implements State {
-    private final int begin;
-    private final int end;
+    private int begin;
+    private int end;
 
     public RangeState(int begin, int end) {
         this.begin = begin;

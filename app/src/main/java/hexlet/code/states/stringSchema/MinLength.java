@@ -3,7 +3,7 @@ package hexlet.code.states.stringSchema;
 import hexlet.code.states.State;
 
 public class MinLength implements State {
-    private final int length;
+    private int length;
 
     public MinLength(int length) {
         this.length = length;
