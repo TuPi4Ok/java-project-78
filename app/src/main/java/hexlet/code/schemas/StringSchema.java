@@ -5,7 +5,7 @@ import hexlet.code.states.stringSchema.ContainsState;
 import hexlet.code.states.stringSchema.MinLength;
 import hexlet.code.states.stringSchema.RequiredState;
 
-public class StringSchema extends BaseSchema {
+public final class StringSchema extends BaseSchema {
     public StringSchema() {
         stateList.add(new DefaultState());
     }

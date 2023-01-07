@@ -2,13 +2,13 @@ package hexlet.code.states.numberSchema;
 
 import hexlet.code.states.State;
 
-public class RangeState implements State {
-    private int begin;
-    private int end;
+public final class RangeState implements State {
+    private final int begin;
+    private final int end;
 
-    public RangeState(int begin, int end) {
-        this.begin = begin;
-        this.end = end;
+    public RangeState(int pbegin, int pend) {
+        this.begin = pbegin;
+        this.end = pend;
     }
 
     @Override

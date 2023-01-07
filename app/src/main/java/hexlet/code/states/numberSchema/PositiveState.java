@@ -2,7 +2,7 @@ package hexlet.code.states.numberSchema;
 
 import hexlet.code.states.State;
 
-public class PositiveState implements State {
+public final class PositiveState implements State {
     @Override
     public boolean isValid(Object obj) {
         if (obj == null) {

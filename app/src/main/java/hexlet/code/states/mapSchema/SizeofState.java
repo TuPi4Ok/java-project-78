@@ -4,11 +4,11 @@ import hexlet.code.states.State;
 
 import java.util.Map;
 
-public class SizeofState implements State {
-    private int size;
+public final class SizeofState implements State {
+    private final int size;
 
-    public SizeofState(int size) {
-        this.size = size;
+    public SizeofState(int psize) {
+        this.size = psize;
     }
 
     @Override

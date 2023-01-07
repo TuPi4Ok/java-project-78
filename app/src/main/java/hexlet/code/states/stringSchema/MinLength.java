@@ -2,11 +2,11 @@ package hexlet.code.states.stringSchema;
 
 import hexlet.code.states.State;
 
-public class MinLength implements State {
-    private int length;
+public final class MinLength implements State {
+    private final int length;
 
-    public MinLength(int length) {
-        this.length = length;
+    public MinLength(int plength) {
+        this.length = plength;
     }
 
     @Override

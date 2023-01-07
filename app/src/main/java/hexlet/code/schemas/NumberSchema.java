@@ -5,7 +5,7 @@ import hexlet.code.states.numberSchema.PositiveState;
 import hexlet.code.states.numberSchema.RangeState;
 import hexlet.code.states.numberSchema.RequiredState;
 
-public class NumberSchema extends BaseSchema {
+public final class NumberSchema extends BaseSchema {
 
     public NumberSchema() {
         stateList.add(new DefaultState());

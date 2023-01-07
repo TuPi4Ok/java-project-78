@@ -2,11 +2,11 @@ package hexlet.code.states.stringSchema;
 
 import hexlet.code.states.State;
 
-public class ContainsState implements State {
-    private String containsStr;
+public final class ContainsState implements State {
+    private final String containsStr;
 
-    public ContainsState(String containsStr) {
-        this.containsStr = containsStr;
+    public ContainsState(String pcontainsStr) {
+        this.containsStr = pcontainsStr;
     }
 
     @Override
