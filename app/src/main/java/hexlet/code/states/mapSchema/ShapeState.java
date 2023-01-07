@@ -3,13 +3,14 @@ package hexlet.code.states.mapSchema;
 import hexlet.code.schemas.BaseSchema;
 import hexlet.code.states.State;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public final class ShapeState implements State {
-    private Map<String, BaseSchema> map;
+    private final Map<String, BaseSchema> map = new HashMap<>();
 
-    public ShapeState(Map<String, BaseSchema> map) {
-        this.map = map;
+    public ShapeState(Map<String, BaseSchema> pmap) {
+        this.map.putAll(pmap);
     }
 
     @Override

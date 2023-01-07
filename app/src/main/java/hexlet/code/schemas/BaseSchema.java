@@ -8,7 +8,7 @@ import java.util.List;
 public class BaseSchema {
     protected List<State> stateList = new ArrayList<>();
 
-    public boolean isValid(Object obj) {
+    public final boolean isValid(Object obj) {
         boolean result = true;
         for (State state : stateList) {
             result = result && state.isValid(obj);
