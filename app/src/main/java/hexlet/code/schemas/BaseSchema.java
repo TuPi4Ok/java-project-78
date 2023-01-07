@@ -15,5 +15,4 @@ public class BaseSchema {
         }
         return result;
     }
-
 }

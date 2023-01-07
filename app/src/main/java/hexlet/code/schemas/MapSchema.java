@@ -12,17 +12,17 @@ public class MapSchema extends  BaseSchema{
         stateList.add(new DefaultState());
     }
 
-    public BaseSchema required() {
+    public MapSchema required() {
         stateList.add(new RequiredState());
         return this;
     }
 
-    public BaseSchema sizeof(int i) {
+    public MapSchema sizeof(int i) {
         stateList.add(new SizeofState(i));
         return this;
     }
 
-    public BaseSchema shape(Map<String, BaseSchema> map) {
+    public MapSchema shape(Map<String, BaseSchema> map) {
         stateList.add(new ShapeState(map));
         return this;
     }

@@ -10,16 +10,16 @@ public class StringSchema extends BaseSchema {
         stateList.add(new DefaultState());
     }
 
-    public BaseSchema required() {
+    public StringSchema required() {
         stateList.add(new RequiredState());
         return this;
     }
-    public BaseSchema contains(String str) {
+    public StringSchema contains(String str) {
         stateList.add(new ContainsState(str));
         return this;
     }
 
-    public BaseSchema minLength(int length) {
+    public StringSchema minLength(int length) {
         stateList.add(new MinLength(length));
         return this;
     }
