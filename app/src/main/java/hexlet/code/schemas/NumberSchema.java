@@ -12,7 +12,7 @@ public class NumberSchema extends BaseSchema {
     }
 
     /**
-     * @return
+     *
      */
     public NumberSchema positive() {
         stateList.add(new PositiveState());
@@ -20,7 +20,7 @@ public class NumberSchema extends BaseSchema {
     }
 
     /**
-     * @return
+     *
      */
     public NumberSchema required() {
         stateList.add(new RequiredState());
@@ -28,9 +28,7 @@ public class NumberSchema extends BaseSchema {
     }
 
     /**
-     * @param begin
-     * @param end
-     * @return
+     *
      */
     public NumberSchema range(int begin, int end) {
         stateList.add(new RangeState(begin, end));

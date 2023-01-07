@@ -15,14 +15,13 @@ public class ShapeState implements State {
     @Override
     public boolean isValid(Object obj) {
         boolean result = true;
-        if(obj instanceof Map map1){
+        if (obj instanceof Map map1){
             for(Map.Entry<String, BaseSchema> item : map.entrySet()) {
                 Object value = map1.get(item.getKey());
                 BaseSchema validator = item.getValue();
                 result = result && validator.isValid(value);
             }
-        }
-        else {
+        } else {
             return false;
         }
         return result;
