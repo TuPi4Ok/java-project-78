@@ -6,7 +6,7 @@ import hexlet.code.states.State;
 import java.util.Map;
 
 public class ShapeState implements State {
-    Map<String, BaseSchema> map;
+    private Map<String, BaseSchema> map;
 
     public ShapeState(Map<String, BaseSchema> map) {
         this.map = map;

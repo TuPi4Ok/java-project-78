@@ -3,7 +3,7 @@ package hexlet.code.states.stringSchema;
 import hexlet.code.states.State;
 
 public class ContainsState implements State {
-    String containsStr;
+    private final String containsStr;
 
     public ContainsState(String containsStr) {
         this.containsStr = containsStr;

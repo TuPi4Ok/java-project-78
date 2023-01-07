@@ -7,7 +7,10 @@ import hexlet.code.states.mapSchema.SizeofState;
 
 import java.util.Map;
 
-public class MapSchema extends  BaseSchema{
+/**
+ *
+ */
+public class MapSchema extends  BaseSchema {
     public MapSchema() {
         stateList.add(new DefaultState());
     }
