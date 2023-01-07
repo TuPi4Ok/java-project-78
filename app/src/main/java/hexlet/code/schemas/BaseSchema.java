@@ -7,6 +7,11 @@ import java.util.List;
 
 public class BaseSchema {
     protected List<State> stateList = new ArrayList<>();
+
+    /**
+     * @param obj
+     * @return
+     */
     public boolean isValid(Object obj) {
         boolean result = true;
         for (State state : stateList) {

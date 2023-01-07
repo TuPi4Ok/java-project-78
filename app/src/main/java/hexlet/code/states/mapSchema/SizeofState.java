@@ -13,7 +13,7 @@ public class SizeofState implements State {
 
     @Override
     public boolean isValid(Object obj) {
-        if(obj instanceof Map map) {
+        if (obj instanceof Map map) {
             return map.size() == this.size;
         }
         return false;
